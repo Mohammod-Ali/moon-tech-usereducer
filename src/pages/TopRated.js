@@ -13,7 +13,7 @@ const TopRated = () => {
   if (error) {
     content = <p>SomeThing Went Wrong...</p>
   }
-  if (!error && !error && products.length == 0) {
+  if (!error && !error && products.length === 0) {
     content = <p>Nothing to show.</p>
   }
   if (!error && !error && products.length) {
